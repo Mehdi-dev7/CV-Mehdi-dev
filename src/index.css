@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --prim: #366B96;
+  --second: #ffed4a;
+  
+  --font-inter: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-poppins: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  --font-roboto: 'Roboto', ui-sans-serif, system-ui, sans-serif;
+}
+
+.Inter {
+  font-family: var(--font-inter);
+}
+.Poppins {
+  font-family: var(--font-poppins);
+}
+.Roboto {
+  font-family: var(--font-roboto);
+}
