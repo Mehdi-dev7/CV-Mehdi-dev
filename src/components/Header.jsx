@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="bg-(--prim) text-white py-16">
       <div className="max-w-4xl mx-auto px-6">
-        <h1 className="Roboto text-5xl font-bold mb-2">Didou Wilfrid (Mehdi)</h1>
+        <h1 className="Roboto text-5xl font-bold mb-2">Didou Wilfrid ( Mehdi )</h1>
         <h2 className="Roboto text-2xl font-light mb-6">Développeur Web Full-Stack <span className="font-semibold mx-3 text-(--second)">React / Next.js</span></h2>
         <div className="flex flex-wrap gap-4 text-sm">
           <a href="mailto:mehdi.dev77@gmail.com" target='_blank' rel="noopener noreferrer" className="hover:underline flex items-center gap-2 Poppins">
