@@ -68,7 +68,7 @@ export default function Skills() {
 				<div className="space-y-4">
 					<div className="bg-(--prim) p-4 rounded-lg">
 						<h3 className="Roboto text-xl font-semibold text-white mb-3">
-							🎨 Développement Frontend
+							🎨 &nbsp; Développement Frontend
 						</h3>
 						<div className="flex flex-wrap gap-6 justify-around">
 							{skillsData.frontend.map((skill, index) => {
@@ -90,7 +90,7 @@ export default function Skills() {
 					</div>
 					<div className="bg-(--prim) p-4 rounded-lg">
 						<h3 className="Roboto text-xl font-semibold text-white mb-3">
-							⚙️ Backend & Bases de données
+							⚙️ &nbsp; Backend & Bases de données
 						</h3>
 						<div className="flex flex-wrap gap-6 justify-around">
 							{skillsData.backend.map((skill, index) => {
@@ -112,7 +112,7 @@ export default function Skills() {
 					</div>
 					<div className="bg-(--prim) p-4 rounded-lg">
 						<h3 className="Roboto text-xl font-semibold text-white mb-3">
-							🛠️ Outils & Technologies
+							🛠️ &nbsp; Outils & Technologies
 						</h3>
 						<div className="flex flex-wrap gap-6 justify-around">
 							{skillsData.outils.map((skill, index) => {
@@ -144,7 +144,7 @@ export default function Skills() {
 					</div>
 					<div className="bg-(--prim) p-4 rounded-lg">
 						<h3 className="Roboto text-xl font-semibold text-white mb-3">
-							🔐 Cybersécurité (en cours)
+							🔐 &nbsp; Cybersécurité (en cours)
 						</h3>
 						<div className="flex flex-wrap gap-6 justify-around">
 							{skillsData.enCours.map((skill, index) => {
