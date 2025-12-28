@@ -1,6 +1,6 @@
 export default function Experience() {
 
-const experiences = [
+const experiencesData = [
   {
     id:1,
     poste: "Développeur Web Junior",
@@ -31,22 +31,8 @@ const experiences = [
     entreprise: "Mairie de Villetaneuse",
     periode: "2001 - 2025",
     mission: [
-      "Gestion et maintenance des équipements municipaux",
       "Coordination et organisation des evenements locaux",
-      "Supervision d'une équipe de techniciens",
-      "Assurer la sécurité et la conformité des installations"
-    ]
-  },
-  {
-    id:4,
-    poste: "Interimaire",
-    entreprise: "Diverses entreprises",
-    periode: "1998 - 2001",
-    mission: [
-      "Magasinier, préparateur de commandes",
-      "Eléctricien",
-      "Chauffeur-livreur",
-      "Manutentionnaire"
+      "Supervision d'une équipe de techniciens"
     ]
   }
 
@@ -54,13 +40,13 @@ const experiences = [
 
   return (
     <section>
-      <div className="max-w-4xl mx-auto px-6 py-6">
-        <h2 className="text-3xl Roboto font-bold mb-6 text-(--prim) border-b-2 border-(--second)  w-fit">
+      <div className="max-w-4xl mx-auto px-6 py-4">
+        <h2 className="text-3xl Roboto font-bold mb-4 text-(--prim) border-b-2 border-(--second)  w-fit">
           Expériences Professionnelles
         </h2>
 
         <div className="space-y-6">
-          {experiences.map((exp) => (
+          {experiencesData.map((exp) => (
           <div key={exp.id} className="bg-white p-6 rounded-lg shadow-sm">
             {/* Header de l'expérience */}
             <div className="mb-4">
@@ -74,7 +60,7 @@ const experiences = [
             {/* Missions */}
             <ul className="space-y-2">
               {exp.mission.map((mission, index) => (
-                <li key={index} className="text-gray-700 Inter flex items-start">
+                <li key={index} className={`text-gray-700 Inter flex items-start ${mission.includes('Git/GitHub') || mission.includes('Gestion de projets clients') ? 'print:hidden' : ''}`}>
                   <span className="text-blue-600 mr-2">•</span>
                   <span className="text-justify">{mission}</span>
                 </li>

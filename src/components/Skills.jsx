@@ -16,7 +16,6 @@ import {
 	SiClaude,
 } from "react-icons/si";
 import {
-	MdDevices,
 	MdApi,
 	MdSecurity,
 	MdMonitorHeart,
@@ -34,7 +33,7 @@ export default function Skills() {
 			{ name: "HTML5", icon: SiHtml5, color: "#E34F26" },
 			{ name: "CSS3", icon: SiCss3, color: "#198CFF" },
 			{ name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
-			{ name: "Responsive Design", icon: MdDevices, color: "#EBF1F5" },
+
 		],
 		outils: [
 			{ name: "Git", icon: SiGit, color: "#F05032" },
@@ -61,11 +60,11 @@ export default function Skills() {
 
 	return (
 		<section>
-			<div className="max-w-4xl mx-auto px-6 py-4">
+			<div className="max-w-4xl mx-auto px-6 py-4 mt-2">
 				<h2 className="text-3xl Roboto font-bold mb-4 text-(--prim) border-b-2 border-(--second) w-fit">
 					Compétences
 				</h2>
-				<div className="space-y-4">
+				<div className="space-y-3">
 					<div className="bg-(--prim) p-4 rounded-lg">
 						<h3 className="Roboto text-xl font-semibold text-white mb-3">
 							🎨 &nbsp; Développement Frontend

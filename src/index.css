@@ -3,7 +3,7 @@
 :root {
   --prim: #366B96;
   --second: #FCA817;
-  
+
   --font-inter: 'Inter', ui-sans-serif, system-ui, sans-serif;
   --font-poppins: 'Poppins', ui-sans-serif, system-ui, sans-serif;
   --font-roboto: 'Roboto', ui-sans-serif, system-ui, sans-serif;
@@ -17,4 +17,180 @@
 }
 .Roboto {
   font-family: var(--font-roboto);
+}
+
+/* Styles pour l'impression PDF */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  @page {
+    size: A4;
+    margin: 1cm;
+  }
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Réduire les espacements pour l'impression */
+  header {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  /* Forcer le header à rester en ligne avec la photo à droite */
+  header > div > div {
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    gap: 2rem !important;
+  }
+
+  h1 {
+    font-size: 1.5rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+
+  h2 {
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  h3 {
+    font-size: 1.1rem !important;
+  }
+
+  section {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  /* Réduire la taille de la photo et du bouton */
+  header img {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+
+  /* Réduire la taille du texte des liens */
+  header a {
+    font-size: 0.75rem !important;
+  }
+
+  /* Réduire l'espacement entre les liens */
+  header .flex-wrap {
+    gap: 0.5rem !important;
+  }
+
+  /* Optimiser les espacements */
+  .max-w-4xl, .max-w-5xl {
+    max-width: 100% !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Optimiser la section Présentation */
+  section > div {
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
+  }
+
+  /* Titre de section */
+  section h2 {
+    font-size: 1.1rem !important;
+    margin-bottom: 0.3rem !important;
+  }
+
+  /* Cartes blanches */
+  .bg-white {
+    padding: 0.75rem !important;
+  }
+
+  /* Paragraphes */
+  p {
+    font-size: 0.9rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 0.3rem !important;
+  }
+
+  /* Dernier paragraphe sans marge */
+  p:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  /* Optimiser la section Expériences */
+  .space-y-6 > * + * {
+    margin-top: 0.4rem !important;
+  }
+
+  .space-y-2 > * + * {
+    margin-top: 0.2rem !important;
+  }
+
+  /* Titres d'expérience */
+  h3 {
+    font-size: 0.95rem !important;
+    margin-bottom: 0.2rem !important;
+  }
+
+  /* Cards d'expérience */
+  .bg-white > div {
+    margin-bottom: 0.3rem !important;
+  }
+
+  /* Listes */
+  ul {
+    margin: 0 !important;
+  }
+
+  li {
+    font-size: 0.8rem !important;
+    line-height: 1.3 !important;
+  }
+
+  /* Éviter les sauts de page au milieu des éléments */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid !important;
+  }
+
+  /* Permettre aux cartes d'expérience de se diviser si nécessaire */
+  .bg-white {
+    page-break-inside: auto !important;
+  }
+
+  /* Garder les titres avec leur contenu */
+  .bg-white > div:first-child {
+    page-break-after: avoid !important;
+  }
+
+  /* Optimiser le footer Contact */
+  footer {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+    margin-top: 0.5rem !important;
+  }
+
+  footer h2 {
+    font-size: 1.1rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  footer a {
+    font-size: 0.75rem !important;
+  }
+
+  footer .flex-wrap {
+    gap: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  /* Masquer le message CTA et copyright pour gagner de la place */
+  footer > div > div:nth-child(2),
+  footer > div > div:nth-child(3) {
+    display: none !important;
+  }
 }
