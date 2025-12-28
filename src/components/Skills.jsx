@@ -61,15 +61,15 @@ export default function Skills() {
 	return (
 		<section>
 			<div className="max-w-4xl mx-auto px-6 py-4 mt-2">
-				<h2 className="text-2xl md:text-3xl Roboto font-bold mb-4 text-(--prim) border-b-2 border-(--second) w-fit">
+				<h2 className="skills text-2xl md:text-3xl Roboto font-bold mb-4 text-(--prim) border-b-2 border-(--second) w-fit">
 					Compétences
 				</h2>
-				<div className="space-y-3">
+				<div className="space-y-3 print:pt-4">
 					<div className="bg-(--prim) p-4 rounded-lg">
 						<h3 className="Roboto text-lg md:text-xl font-semibold text-white mb-5 md:mb-3">
 							🎨 &nbsp; Développement Frontend
 						</h3>
-						<div className="flex flex-wrap gap-6 justify-around">
+						<div className="flex flex-wrap gap-6 print:pt-2 justify-around">
 							{skillsData.frontend.map((skill, index) => {
 								const Icon = skill.icon;
 								return (
@@ -91,7 +91,7 @@ export default function Skills() {
 						<h3 className="Roboto text-lg md:text-xl font-semibold text-white mb-5 md:mb-3">
 							⚙️ &nbsp; Backend & Bases de données
 						</h3>
-						<div className="flex flex-wrap gap-6 justify-around">
+						<div className="flex flex-wrap gap-6 print:pt-2 justify-around">
 							{skillsData.backend.map((skill, index) => {
 								const Icon = skill.icon;
 								return (
@@ -113,7 +113,7 @@ export default function Skills() {
 						<h3 className="Roboto text-lg md:text-xl font-semibold text-white mb-5 md:mb-3">
 							🛠️ &nbsp; Outils & Technologies
 						</h3>
-						<div className="flex flex-wrap gap-6 justify-around">
+						<div className="flex flex-wrap gap-6 print:pt-2 justify-around">
 							{skillsData.outils.map((skill, index) => {
 								const IconComponent = skill.icon;
 								return (
@@ -145,7 +145,7 @@ export default function Skills() {
 						<h3 className="Roboto text-lg md:text-xl font-semibold text-white mb-5 md:mb-3">
 							🔐 &nbsp; Cybersécurité (en cours)
 						</h3>
-						<div className="flex flex-wrap gap-6 justify-around">
+						<div className="flex flex-wrap gap-6 print:pt-2 justify-around">
 							{skillsData.enCours.map((skill, index) => {
 								const Icon = skill.icon;
 								return (

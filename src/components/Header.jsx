@@ -14,7 +14,14 @@ export default function Header() {
           {/* Informations à gauche */}
           <div className="flex-1">
             <h1 className="Roboto text-3xl md:text-5xl font-bold mb-2">Didou Wilfrid <span className="whitespace-nowrap">( Mehdi )</span></h1>
-            <h2 className="Roboto text-xl md:text-2xl font-light mb-6">Développeur Web Full-Stack <span className="font-semibold whitespace-nowrap mx-3 text-(--second)">React / Next.js</span></h2>
+            <h2 className="Roboto text-xl md:text-2xl font-light mb-4">Développeur Web Full-Stack <span className="font-semibold whitespace-nowrap mx-3 text-(--second)">React / Next.js</span></h2>
+            <div className="flex flex-wrap gap-3 text-sm mb-4 print:text-xs print:mb-3 text-gray-200 Poppins">
+              <span>47 ans</span>
+              <span>•</span>
+              <span>Nationalité française</span>
+              <span>•</span>
+              <span>Permis B, D</span>
+            </div>
             <div className="flex flex-wrap gap-4 text-sm">
               <a href="mailto:mehdi.dev77@gmail.com" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) hover:scale-102 transition-all duration-300 flex items-center gap-2 Poppins">
                 <MdEmail size={20} />

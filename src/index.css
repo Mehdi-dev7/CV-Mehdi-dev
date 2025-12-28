@@ -58,7 +58,7 @@
 
   h2 {
     font-size: 1rem !important;
-    margin-bottom: 0.75rem !important;
+    margin-bottom: 0.50rem !important;
   }
 
   h3 {
@@ -100,9 +100,13 @@
   }
 
   /* Titre de section */
-  section h2 {
+  section h2:not(.skills) {
     font-size: 1.1rem !important;
-    margin-bottom: 0.75rem !important;
+    margin-bottom: 0.50rem !important;
+  }
+
+  section h2.skills {
+    font-size: 1.1rem !important;
   }
 
   /* Cartes blanches */
@@ -135,6 +139,11 @@
   h3 {
     font-size: 0.95rem !important;
     margin-bottom: 0.2rem !important;
+  }
+
+  /* Titres de compétences avec emojis - meilleur alignement */
+  .bg-\(--prim\) h3 {
+    line-height: 1.6 !important;
   }
 
   /* Cards d'expérience */

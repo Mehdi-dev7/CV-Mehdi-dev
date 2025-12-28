@@ -32,7 +32,7 @@ const experiencesData = [
     periode: "2001 - 2025",
     mission: [
       "Coordination et organisation des evenements locaux",
-      "Supervision d'une équipe de techniciens"
+      "Supervision de différentes équipes de techniciens"
     ]
   }
 
