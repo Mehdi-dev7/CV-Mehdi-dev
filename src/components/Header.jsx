@@ -8,23 +8,23 @@ export default function Header() {
         <h1 className="Roboto text-5xl font-bold mb-2">Didou Wilfrid ( Mehdi )</h1>
         <h2 className="Roboto text-2xl font-light mb-6">Développeur Web Full-Stack <span className="font-semibold mx-3 text-(--second)">React / Next.js</span></h2>
         <div className="flex flex-wrap gap-4 text-sm">
-          <a href="mailto:mehdi.dev77@gmail.com" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) hover: flex items-center gap-2 Poppins">
+          <a href="mailto:mehdi.dev77@gmail.com" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) hover:scale-102 transition-all duration-300 flex items-center gap-2 Poppins">
             <MdEmail size={20} />
             mehdi.dev77@gmail.com
           </a>
-          <a href="tel:+212690163841" target='_blank' rel='noopener noreferrer' className="hover:text-(--second) flex items-center gap-2 Poppins">
+          <a href="tel:+212690163841" target='_blank' rel='noopener noreferrer' className="hover:text-(--second) flex items-center gap-2 Poppins hover:scale-102 transition-all duration-300">
             <MdPhone size={20} />
             +212 6 90 16 38 41
           </a>
-          <a href="https://wa.me/33650157032" target='_blank' rel='noopener noreferrer' className="hover:text-(--second) flex items-center gap-2">
+          <a href="https://wa.me/33650157032" target='_blank' rel='noopener noreferrer' className="hover:text-(--second) flex items-center gap-2 hover:scale-102 transition-all duration-300">
             <FaWhatsapp size={20} />
             +33 6 50 15 70 32
           </a>
-          <a href="https://github.com/Mehdi-dev7" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) flex items-center gap-2 Poppins">
+          <a href="https://github.com/Mehdi-dev7" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) flex items-center gap-2 Poppins hover:scale-102 transition-all duration-300">
             <FaGithub size={20} />
             GitHub
           </a>
-          <a href="#" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) flex items-center gap-2">
+          <a href="#" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) flex items-center gap-2 hover:scale-102 transition-all duration-300">
             <FaLinkedin size={20} />
             LinkedIn
           </a>
