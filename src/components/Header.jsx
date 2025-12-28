@@ -13,8 +13,8 @@ export default function Header() {
         <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Informations à gauche */}
           <div className="flex-1">
-            <h1 className="Roboto text-5xl font-bold mb-2">Didou Wilfrid ( Mehdi )</h1>
-            <h2 className="Roboto text-2xl font-light mb-6">Développeur Web Full-Stack <span className="font-semibold mx-3 text-(--second)">React / Next.js</span></h2>
+            <h1 className="Roboto text-3xl md:text-5xl font-bold mb-2">Didou Wilfrid <span className="whitespace-nowrap">( Mehdi )</span></h1>
+            <h2 className="Roboto text-xl md:text-2xl font-light mb-6">Développeur Web Full-Stack <span className="font-semibold whitespace-nowrap mx-3 text-(--second)">React / Next.js</span></h2>
             <div className="flex flex-wrap gap-4 text-sm">
               <a href="mailto:mehdi.dev77@gmail.com" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) hover:scale-102 transition-all duration-300 flex items-center gap-2 Poppins">
                 <MdEmail size={20} />
@@ -28,11 +28,11 @@ export default function Header() {
                 <FaWhatsapp size={20} />
                 +33 6 50 15 70 32
               </a>
-              <a href="https://github.com/Mehdi-dev7" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) flex items-center gap-2 Poppins hover:scale-102 transition-all duration-300">
+              <a href="https://github.com/Mehdi-dev7" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) flex items-center gap-2 Poppins hover:scale-102 transition-all duration-300 print:hidden">
                 <FaGithub size={20} />
                 GitHub
               </a>
-              <a href="#" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) flex items-center gap-2 hover:scale-102 transition-all duration-300">
+              <a href="#" target='_blank' rel="noopener noreferrer" className="hover:text-(--second) flex items-center gap-2 hover:scale-102 transition-all duration-300 print:hidden">
                 <FaLinkedin size={20} />
                 LinkedIn
               </a>

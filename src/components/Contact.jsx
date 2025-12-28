@@ -58,7 +58,7 @@ export default function Contact() {
 
 				{/* Message CTA */}
 				<div className="text-center mb-6">
-					<p className="text-blue-100 text-lg">
+					<p className="text-blue-100 text-md md:text-lg">
 						Disponible pour de nouvelles opportunités 🚀
 					</p>
 				</div>

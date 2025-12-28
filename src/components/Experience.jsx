@@ -41,7 +41,7 @@ const experiencesData = [
   return (
     <section>
       <div className="max-w-4xl mx-auto px-6 py-4">
-        <h2 className="text-3xl Roboto font-bold mb-4 text-(--prim) border-b-2 border-(--second)  w-fit">
+        <h2 className="text-2xl md:text-3xl Roboto font-bold mb-4 text-(--prim) border-b-2 border-(--second)  w-fit">
           Expériences Professionnelles
         </h2>
 
@@ -62,7 +62,7 @@ const experiencesData = [
               {exp.mission.map((mission, index) => (
                 <li key={index} className={`text-gray-700 Inter flex items-start ${mission.includes('Git/GitHub') || mission.includes('Gestion de projets clients') ? 'print:hidden' : ''}`}>
                   <span className="text-blue-600 mr-2">•</span>
-                  <span className="text-justify">{mission}</span>
+                  <span className="md:text-justify">{mission}</span>
                 </li>
               ))}
             </ul>

@@ -2,7 +2,7 @@ export default function About() {
 	return (
 		<section>
 			<div className="max-w-4xl mx-auto px-6 py-10">
-				<h2 className="text-3xl Roboto font-bold mb-4 text-(--prim) border-b-2 border-(--second)  w-fit">
+				<h2 className="text-2xl md:text-3xl Roboto font-bold mb-4 text-(--prim) border-b-2 border-(--second)  w-fit">
 					Présentation
 				</h2>
 				<div className="bg-white p-6 rounded-lg shadow-sm">

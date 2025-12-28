@@ -53,12 +53,12 @@
 
   h1 {
     font-size: 1.5rem !important;
-    margin-bottom: 0.25rem !important;
+    margin-bottom: 0.5rem !important;
   }
 
   h2 {
     font-size: 1rem !important;
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0.75rem !important;
   }
 
   h3 {
@@ -102,7 +102,7 @@
   /* Titre de section */
   section h2 {
     font-size: 1.1rem !important;
-    margin-bottom: 0.3rem !important;
+    margin-bottom: 0.75rem !important;
   }
 
   /* Cartes blanches */
@@ -167,11 +167,12 @@
     page-break-after: avoid !important;
   }
 
-  /* Optimiser le footer Contact */
+  /* Optimiser le footer Contact - pousser vers le bas de la page */
   footer {
     padding-top: 0.75rem !important;
     padding-bottom: 0.75rem !important;
-    margin-top: 0.5rem !important;
+    margin-top: 15rem !important;
+    break-inside: avoid !important;
   }
 
   footer h2 {
@@ -186,11 +187,5 @@
   footer .flex-wrap {
     gap: 0.5rem !important;
     margin-bottom: 0.5rem !important;
-  }
-
-  /* Masquer le message CTA et copyright pour gagner de la place */
-  footer > div > div:nth-child(2),
-  footer > div > div:nth-child(3) {
-    display: none !important;
   }
 }
