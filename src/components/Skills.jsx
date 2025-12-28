@@ -55,7 +55,7 @@ export default function Skills() {
 		enCours: [
 			{ name: "Cybersécurité", icon: MdSecurity, color: "#DC143C" },
 			{ name: "Analyse SOC", icon: MdMonitorHeart, color: "#198CFF" },
-			{ name: "Ethical Hacking", icon: MdShield, color: "#2E8B57" },
+			{ name: "Ethical Hacking", icon: MdShield, color: "#00B300" },
 		],
 	};
 
