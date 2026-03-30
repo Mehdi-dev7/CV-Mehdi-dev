@@ -15,6 +15,7 @@ import {
 	SiNetlify,
 	SiClaude,
 } from "react-icons/si";
+import { SiN8n } from "@icons-pack/react-simple-icons";
 import {
 	MdApi,
 	MdSecurity,
@@ -42,7 +43,7 @@ export default function Skills() {
 			{ name: "Cursor", icon: cursorLogo, color: "#000000", isImage: true },
 			{ name: "Claude Code", icon: SiClaude, color: "#D97757" },
 			{ name: "Vercel", icon: SiVercel, color: "#000000" },
-			{ name: "Netlify", icon: SiNetlify, color: "#00C7B7" },
+			{ name: "n8n", icon: SiN8n, color: "#EA4B71" },
 		],
 		backend: [
 			{ name: "PostgreSQL", icon: SiPostgresql, color: "#198CFF" },
