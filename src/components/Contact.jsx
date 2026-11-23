@@ -26,7 +26,7 @@ export default function Contact() {
 					</a>
 
 					<a
-						href="https://wa.me/33780976745"
+						href="https://wa.me/33650157032"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="hover:text-(--second) hover:scale-105 transition-all duration-300 flex items-center gap-2"
