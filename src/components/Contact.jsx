@@ -18,15 +18,15 @@ export default function Contact() {
 					</a>
 
 					<a
-						href="tel:+212780976745"
+						href="tel:+33780976745"
 						className="hover:text-(--second) hover:scale-105 transition-all duration-300 flex items-center gap-2"
 					>
 						<MdPhone size={20} />
-						+212 7 80 97 67 45
+						07 80 97 67 45
 					</a>
 
 					<a
-						href="https://wa.me/212780976745"
+						href="https://wa.me/33780976745"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="hover:text-(--second) hover:scale-105 transition-all duration-300 flex items-center gap-2"
