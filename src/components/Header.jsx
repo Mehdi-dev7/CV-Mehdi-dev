@@ -27,9 +27,9 @@ export default function Header() {
                 <MdEmail size={20} />
                 mehdi.dev77@gmail.com
               </a>
-              <a href="tel:+212690163841" target='_blank' rel='noopener noreferrer' className="hover:text-(--second) flex items-center gap-2 Poppins hover:scale-102 transition-all duration-300">
+              <a href="tel:+212780976745" target='_blank' rel='noopener noreferrer' className="hover:text-(--second) flex items-center gap-2 Poppins hover:scale-102 transition-all duration-300">
                 <MdPhone size={20} />
-                +212 6 90 16 38 41
+                +212 7 80 97 67 45
               </a>
               <a href="https://wa.me/33650157032" target='_blank' rel='noopener noreferrer' className="hover:text-(--second) flex items-center gap-2 hover:scale-102 transition-all duration-300">
                 <FaWhatsapp size={20} />
